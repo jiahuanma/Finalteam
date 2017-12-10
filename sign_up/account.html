@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="accountstyle.css">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110484761-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-110484761-1');
+</script>
+
+    </head>
+    <body>
+        <div data-role="page">
+			<div data-role="header">
+                <div class="logout" onclick="handleSignOut();"><a href="#">log out</a></div>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a icon">
+                                <img src="images/icon01.png" alt="">
+                            </div>
+                            <div class="ui-block-b name">
+                                <div class="account-name">Name</div>
+                                <div class="home-button">Home</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			 <div data-role="main">
+                    <div data-role="navbar" class="nav-glyphish-example" data-grid="a">
+			         <ul>
+                        <li><a href="#" data-icon="notification" class="ui-btn active" style="background-color:#D1EAC1 !important;">Notification</a></li>
+                        <li><a href="#" data-icon="payment" style="background-color:#C9E2BA !important;">Payment</a></li>
+                        <li><a href="#" data-icon="setting" style="background-color:#A7D692 !important;">Setting</a></li>
+                        <li><a href="#" data-icon="notification" style="background-color:#9FC989 !important;">Location</a></li>
+                        <li><a href="#" data-icon="payment" style="background-color:#9EC48A !important;">Setting</a></li>
+                        <li><a href="#" data-icon="setting" style="background-color:#87AA71 !important;">Location</a></li>
+                    </ul>
+                </div>
+			 	</div><!-- /main -->
+                <div id="footer">
+                <div class="ui-grid-b row" id="bottomNav">
+                        <div class="navItem ui-block-a text-center active">
+                            <a href="#">
+                                <img class="nav-icon" id="accountIcon" src="images/account_icon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="navItem ui-block-b text-center">
+                            <a href="#">
+                                <img class="nav-icon" id="mainIcon" src="images/main_icon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="navItem ui-block-c text-center">
+                            <a href="#">
+                                <img class="nav-icon" id="orderIcon" src="images/order_icon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /page -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </body>
+    </html>
+
+    

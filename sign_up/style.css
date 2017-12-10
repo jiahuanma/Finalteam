@@ -1,0 +1,266 @@
+
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #5fa281;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0;
+}
+
+.ui-page-theme-b .ui-btn, html .ui-bar-b .ui-btn, html .ui-body-b .ui-btn, html body .ui-group-theme-b .ui-btn, html head+body .ui-btn.ui-btn-b, .ui-page-theme-b .ui-btn:visited, html .ui-bar-b .ui-btn:visited, html .ui-body-b .ui-btn:visited, html body .ui-group-theme-b .ui-btn:visited, html head+body .ui-btn.ui-btn-b:visited {
+    background-color: #5fa281;
+    border-color: #5fa281;
+    color: #fff;
+    text-shadow: 0;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #5fa281;
+    border-color: #5fa281;
+    color: #333;
+    text-shadow: 0 1px 0 #eee;
+    font-weight: 700;
+}
+
+
+.ui-btn {
+	margin: 0.5em 0.1em;
+}
+
+#sin {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 1.2em;
+}
+
+.ui-btn {
+    font-size: .5em;
+    }
+
+h1 {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ui-header, .ui-footer {
+    border-width: 1px 0;
+    border-style: solid;
+    position: relative;
+}
+
+.ui-shadow {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+
+input {
+	margin-top: 0px;
+	overflow: none;
+}
+
+.ui-input-text, .ui-input-search {
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    width: 80%;
+    background-color: #fff;
+    border-bottom: 0.000000001px solid #5fa281;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.ui-controlgroup-controls .ui-btn, .ui-controlgroup-controls .ui-checkbox, .ui-controlgroup-controls .ui-radio, .ui-controlgroup-controls .ui-select {
+    margin: 0 10%;
+    width: 80%;
+    height: 6vh;
+    line-height: 3vh;
+    font-size: 2vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.ui-input-text input, .ui-input-search input, textarea.ui-input-text {
+    padding: 1em;
+    font-size: 0.5em;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5em;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.ui-btn, label.ui-btn {
+    border: 0px solid;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #a7d692;
+    border-color: #ddd;
+    color: #fff;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-controlgroup-vertical .ui-btn.ui-last-child {
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ui-controlgroup-vertical .ui-btn.ui-first-child {
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-control {
+	border-radius: none;
+	height:2em;
+
+}
+
+
+.ui-content {
+	overflow: hidden;
+	margin-bottom: 0.5em;
+}
+
+
+
+.ui-block-0 img {
+	width: 30%;
+	margin-bottom: 0.2em;
+	margin-top: 2.5em;
+}
+
+.ui-block-0 {
+	text-align: center;
+	margin-top: 0.2em;
+	color: #a7d692;
+	font-size: 0.5em;
+	text-shadow: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#othersign {
+	margin-top: -1em;
+}
+
+#othersign h2{
+	color: white;
+	font-size: 1em;
+}
+
+#social {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#social img {
+	width: 15%;
+	margin: 5%;
+}
+
+#swap {
+	margin-top: 20px;
+}
+
+.jump a{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+.ui-controlgroup, fieldset.ui-controlgroup {
+    padding: 0;
+    margin: 0em 0;
+}
+
+h5 {
+    display: block;
+    font-size: 0.5em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+div#bottomNav.row {
+    background-color: #5FA281;
+
+}
+
+.navItem {
+    padding: 15px;
+}
+
+div.active {
+    background-color: rgba(56, 56, 56, 0.31);
+}
+
+
+.background-shadow {
+    position: fixed;
+    bottom: 70px;
+    left: -35px;
+    width: 120vw;
+
+}
+
+.store-preview-page {
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin-top: 10px;
+    width: 85vw;
+    height: 85vh;
+    position-top: 5px;
+    background-color: #19467F;
+    
+}
+
+#walgreen-img-container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(/AAU/WNM617/shopping_list/img/walgreen_store.jpg);
+    background-size: 100% 100%;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
+.store-preview-nav {
+    position: relative;
+    width: 100%;
+    height: 18%;
+    
+}
+

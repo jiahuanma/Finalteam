@@ -1,0 +1,96 @@
+<html>
+    <head>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="style.css" >
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110484761-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-110484761-1');
+</script>
+    </head>
+    <body>
+			<div data-role="page" id="up-page">
+            <a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-btn-b ui-icon-carat-l ui-btn-icon-left"></a>
+             <div data-role="header" id="sin">
+                <h1>Business signup</h1>
+                <div class="ui-block-0"><img src="images/man.png" alt=""></div>
+            </div>
+            <div data-role="main" class="ui-content">
+
+                        <div data-role="controlgroup" data-type="vertical">
+                        <input type="email" id="form-email" 
+                        placeholder="Email">
+                            <input type="password" id="form-password" 
+                            placeholder="Password">
+                            <input type="password" id="form-password" 
+                            placeholder="Confirm Password">
+                    <input type="submit" id="signup" value="Sign Up" onclick="handleSignUp();">
+                </div></div>
+			
+			<div data-role="footer">
+			<div data-role="controlgroup" data-type="vertical">
+            <div class="ui-block-0" id="swap">Already have an account. <a href="#in-page" data-transition="flip">Sign in</a> here.</div></div>
+        </div></div><
+
+        <div data-role="page" id="in-page">
+                <a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-btn-b ui-icon-carat-l ui-btn-icon-left"></a>
+             <div data-role="header" id="sin">
+                <h1>Business signin</h1>
+                <div class="ui-block-0"><img src="images/man.png" alt=""></div>
+            </div>
+            <div data-role="main" class="ui-content">
+
+                    <div data-role="controlgroup" data-type="vertical">
+                        <input type="email" id="form-email"
+                        class="form-control" 
+                        placeholder="Email">
+                            <input type="password" id="form-password"
+                            class="form-control" 
+                            placeholder="Password">
+                    <input type="submit" id="signin" class="form-control"
+                        value="Sign In" onclick="handleSignIn();">
+                </div></div>
+                <div data-role="controlgroup" data-type="vertical">
+                   <div class="ui-block-0" id="othersign"> <h2>OR SIGN IN WITH</h2> </div>
+                 <div data-role="controlgroup" data-type="vertical">
+                   <div class="ui-block-0" id="social">
+                       <img src="images/facebook.png" alt="" onclick="handleFBLogin();">
+                       <img src="images/google.png" alt="" onclick="handleGLLogin();">
+                       <img src="images/twitter.png" alt="" onclick="handleTWLogin();">
+                   </div>  
+
+                </div>
+            <div data-role="footer">
+            <div data-role="controlgroup" data-type="vertical">
+            <div class="ui-block-0" id="swap">Don't have an account? <a href="#up-page" data-transition="flip">Sign up</a> here.</div></div>
+        </div>
+    </div>
+        </div>
+    
+	
+			<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+				<script>
+				  // Initialize Firebase
+				  var config = {
+				    apiKey: "AIzaSyA1qgIK6okGF1TZh_4Cq_rrBXeLYz939zw",
+				    authDomain: "project-1635177373053770374.firebaseapp.com",
+				    databaseURL: "https://project-1635177373053770374.firebaseio.com",
+				    projectId: "project-1635177373053770374",
+				    storageBucket: "project-1635177373053770374.appspot.com",
+				    messagingSenderId: "435844936926"
+				  };
+				  firebase.initializeApp(config);
+				</script>
+				<script src="myauth.js"></script>
+				<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	            <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+			        
+
+    </body>

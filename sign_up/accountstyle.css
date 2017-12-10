@@ -1,0 +1,121 @@
+body .ui-body-c, .ui-overlay-c { text-shadow:0 0 0 !important;}
+
+.nav-glyphish-example .ui-btn { padding-top: 90px !important; }
+.nav-glyphish-example .ui-btn:after { width: 50px!important; height: 50px!important; margin-left: -25px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+
+.ui-icon-notification:after {
+	background: url(images/destop.png) 50% 50% no-repeat;
+	background-size:100%;
+}
+
+.ui-btn, label.ui-btn {
+    font-weight: 700;
+    border-width: 0px;
+    border-style: solid;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #F0F4EB;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #eee;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 0px 0;
+}
+
+.ui-icon-payment:after {
+	background: url(images/payment.png) 50% 50% no-repeat;
+	background-size:100%;
+}
+
+.ui-icon-setting:after {
+	background: url(images/setting.png) 50% 50% no-repeat;
+	background-size:100%;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #5fa281;
+    height: 60px;
+    text-shadow: 0;
+}
+
+.ui-btn-icon-top:after {
+    top: 40px;
+}
+
+.ui-icon-notification {
+	background:  url("../images/destop.png") 50% 50% no-repeat;
+}
+
+.logout {
+	width: 50px;
+	font-size: .7em;
+	margin-left: 85%;
+	overflow: hidden;
+	margin-top: -10px;
+	color: #5fa281;
+}
+
+
+.ui-body .ui-body-a .ui-corner-all {
+	margin: 0px;
+}
+
+.icon img{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	padding-top: -10px;
+}
+
+.name {
+	padding-left: 10px;
+	margin-top: 30px;
+}
+
+.account-name {
+	font-size: .9em;
+	color: #5fa281;
+}
+
+.home-button {
+	font-size: .7em;
+	color: #84D5AD;
+}
+
+div#bottomNav.row {
+    background-color: #5FA281;
+    text-align: center;
+
+}
+
+.nav-icon {
+	width: 30px;
+	height: 30px;
+	clear: both;
+
+}
+
+
+div#bottomNav.row {
+	background-color: #5FA281;
+
+}
+
+.navItem {
+	padding: 15px;
+}
+
+div.active {
+	background-color: rgba(56, 56, 56, 0.31);
+}
